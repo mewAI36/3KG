@@ -1,4 +1,4 @@
-getgenv().SCRIPT_KEY = "95b161ed-fac5-4a6f-9db4-1e7df6e47e79"
+getgenv().ditmemay = "95b161ed-fac5-4a6f-9db4-1e7df6e47e79"
 loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/37f5728a90ded56d68af0543dee0a08a7508c01e3e138f0459bc23be044a4c10/download"))()
 task.spawn(function()
     local CoreGui = game:GetService("CoreGui")
@@ -19,8 +19,8 @@ task.spawn(function()
         end
     end
 
-    if keyInput and verifyBtn and getgenv().SCRIPT_KEY then
-        keyInput.Text = tostring(getgenv().SCRIPT_KEY)
+    if keyInput and verifyBtn and getgenv().ditmemay then
+        keyInput.Text = tostring(getgenv().ditmemay)
         task.wait(0.2)
 
         if firesignal then
